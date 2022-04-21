@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+:root{
+    --cor0:#a4bffa;
+    --cor1:#5587F2;
+    --cor2:#0C54F0;
+    --cor3:#0942BD;
+    --cor4:#062770;
+    --cor5:#031948;
+
+    
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+}
