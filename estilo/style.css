@@ -43,37 +43,36 @@ nav > a:hover{
     color: black;
 }
 
+
 article{
     display: inline-block;
-    
-
+    text-align: justify;
+    color: black;
+    text-indent: 100px;
 
 }
 
-#container-a{
-    padding-right: 40px;
-    
-}
+
 
 #container-a>h1{
     font-family: var(--fonte-padrao);
     font-size: 2em;
-    text-indent: 40px;
-    text-align: left
+
+
 }
+
 
 #container-a>p>a{
     color: white;
     padding: 10px;
-    margin-inline-start: 50px;
-    border-radius: 5px;
+    order-radius: 5px;
     text-decoration: none;
     font-weight: bold;
     border-width: 20px; /* borda */
     border-style: outset;  /* borda estilo */
-    border-color: var(--cor4);
-    
+    border-color: var(--cor4);  
 }
+
 
 #container-b>h1{
     font-family: var(--fonte-padrao);
@@ -87,3 +86,27 @@ article{
     text-indent: 100px;
     font-weight: bold;
 }
+
+#container-b>p>a{
+    text-decoration: none;
+    color: white;
+}
+#container-c>h1{
+    font-family: var(--fonte-padrao);
+    font-size: 2em;
+    text-indent: 100px;
+}
+
+#container-c>p{
+    font-family: var(--fonte-padrao);
+    font-size: 1em;
+    
+    font-weight: bold;
+}
+
+#container-c>p>a{
+    text-align: justify;
+    text-decoration: none;
+    color: white;
+}
+
