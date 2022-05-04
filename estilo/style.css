@@ -48,16 +48,19 @@ article{
     display: inline-block;
     text-align: justify;
     color: black;
-    text-indent: 100px;
+   text-indent: 100px;
 
 }
 
+#container-a{
+    
+    
+}
 
 
 #container-a>h1{
     font-family: var(--fonte-padrao);
     font-size: 2em;
-
 
 }
 
@@ -65,7 +68,7 @@ article{
 #container-a>p>a{
     color: white;
     padding: 10px;
-    order-radius: 5px;
+    border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
     border-width: 20px; /* borda */
